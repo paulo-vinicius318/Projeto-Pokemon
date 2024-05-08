@@ -1,0 +1,70 @@
+
+<html>
+    <head>
+        <title>Pokedex</title>
+        <script src="js/scripts.js"></script>
+       
+        <style>
+            .header{
+                color: black;
+                font-size: larger;
+            }
+
+            .footer{
+                color: azure;
+                font-size: larger;
+            }
+
+            h1{
+                color: blue;
+                font-size: larger;
+            }
+
+            .fogo{
+                color: orange;
+                font-size: larger;
+            }
+
+            .agua{
+                color: lightblue;
+                font-size: larger;
+            }
+
+            .grama{
+                color: greenyellow;
+                font-size: larger;
+            }
+
+            .terra{
+                color: burlywood;
+                font-size: larger;
+            }
+
+            .card{
+                border-color: grey;
+                border-width: 1px;
+                border-style: solid;
+                width: 18%;
+            }
+
+            #conteudo-pokemon{
+                display: flex;
+                flex-wrap: wrap;
+            }
+            
+        </style>
+
+
+    </head>
+
+    <body onload="carregarPokemons()">
+
+        <h1 class="header">Lista de Pokemons</h1>
+
+        <div id="conteudo-pokemon"></div>
+
+        <h1 class="footer">Final da lista</h1>
+        
+    </body>
+
+</html>
